@@ -12,4 +12,3 @@
 - RNF1: Acessibilidade para multiplataforma
 - RNF2: Fazer o Banco de dados em SQlite
 - RNF3: Promoçoes aleatorias para diversidade do sit
-- github.com/cp2-info-dc-projeto-final
