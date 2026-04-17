@@ -7,8 +7,11 @@
 - RF6: Cabeçalho de Opçoes entre as abas.
 - RF7: Blocos em cada aba para evidencias opçoes de comidas.
 - RF8: Colocar uma aba para contato
+- RF9: Promoçoes aleatorias para diversidade do site
+- RF10: Aba que junta todas as promoções
+- RF11: Aba para carrinho com as encomendas desejadas
+- RF12: 
 
 # Requisitos não funcionais
 - RNF1: Acessibilidade para multiplataforma
 - RNF2: Fazer o Banco de dados em SQlite
-- RNF3: Promoçoes aleatorias para diversidade do sit
