@@ -90,7 +90,26 @@
   
 - O sistema edita os dados do cliente no banco de dados.
 
-### Caso de Uso 5: Busca de produtos.
+### Caso de Uso 5: Logout
+
+#### Atores: 
+
+- cliente
+
+#### Fluxo principal:  
+
+- O cliente acessa o menu do seu perfil com as configurações da sua conta e aperta o botão de "Logout".
+
+- O sistema apresenta uma mensagem perguntando "Quer confirmar o Logout?".
+
+- O cliente confirma.
+
+- O sistema apaga o login do cliente.
+
+- O sistema realoca o cliente para o menu do seu perfil com  as configurações da sua conta.
+
+
+### Caso de Uso 6: Busca de produtos.
 
 #### Atores: 
 
@@ -112,11 +131,11 @@
 
 - A busca é finalizada.
 
-### Caso de uso 6: Carrinho de compras.
+### Caso de uso 7: Carrinho de compras.
 
 #### Atores: 
 
-- Usuário
+- CLiente
 
 #### Fluxo principal:  
 
@@ -132,45 +151,64 @@
   
 - O cliente finaliza a compra e é redirecionado para a pagina inicial.
 
-### Caso de Uso 7: Carrinho de compras.
 
-#### Atores: 
+### Caso de Uso 8: Interação com os gatos
 
-- Usuário
-
-#### Fluxo principal:  
-
-- O cliente clica no ícone do "carrinho de compras".
-
-- O sistema redireciona o cliente para a página contendo os itens desejados.
-
-- O cliente pode iniciar o processo de compra dos produtos desejados.
-
-- O cliente preenche o cadastro com suas informações de endereço.
-
-- O cliente seleciona uma forma de pagamento.
-  
-- O cliente finaliza a compra e é redirecionado para a pagina inicial.
-
-### Caso de Uso 9: Logout
-
-#### Atores: 
+#### Atores:
 
 - cliente
 
+#### Fluxo Principal:
+
+- O cliente clica no ícone "Gatos".
+
+- O sistema redireciona o cliente para a página contendo vários gatos.
+
+- O cliente usa o cursor para os movimentar como quiser.
+
+- O cliente volta para a página principal do menu.
+
+### Caso de Uso 9: Editar carrinho de compras.
+
+#### Atores: 
+
+- Cliente
+
 #### Fluxo principal:  
 
-- O cliente acessa o menu do seu perfil com as configurações da sua conta e aperta o botão de "Logout".
+- O cliente clica no ícone do "carrinho de compras".
 
-- O sistema apresenta uma mensagem perguntando "Quer confirmar o Logout?".
+- O sistema redireciona o cliente para a página contendo os itens desejados.
 
-- O cliente confirma.
+- O cliente clica no botão "Editar Carrinho".
 
-- O sistema apaga o login do cliente.
+- O Cliente atualiza os campos do pedido(QTD de itens, ingredientes do item, tamanho do item).
 
-- O sistema realoca o cliente para o menu do seu perfil com  as configurações da sua conta.
+- O cliente clica em "Confirmar".
 
-### Caso de Uso 10: Gerenciar Catálogo de produtos.
+- O carrinho é atualizado.
+
+### Caso de Uso 10: Excluir itens do carrinho de compras.
+
+#### Atores: 
+
+- Cliente
+
+#### Fluxo principal:  
+
+- O cliente clica no ícone do "carrinho de compras".
+
+- O sistema redireciona o cliente para a página contendo os itens desejados.
+
+- O cliente clica no botão "Excluir item".
+
+- O sistema envia uma pergunta de confirmação.
+
+- O cliente clica em "Confirmar".
+
+- O carrinho é atualizado.
+- 
+### Caso de Uso 11: Gerenciar Catálogo de produtos.
 
 #### Atores: 
 
@@ -206,11 +244,11 @@
 
 - O administrador clica em um pedido para ver detalhes.
 
-- O administrador atualiza o status do pedido, por exemplo, "em entrega" ou "concluído".
+- O administrador atualiza o status do pedido, por exemplo, "em entrega", "concluído" ou "Encomenda pronta para retirada".
 
 - O sistema registra a atualização.
 
-### Caso de Uso 13: Gerenciar clientes. 
+### Caso de Uso 13: Administrar clientes. 
 
 #### Atores: 
 
@@ -227,3 +265,43 @@
 - O administrador clica sobre um cliente para ver detalhes.
 
 - O administrador pode optar por editar ou excluir o cadastro.
+
+### Caso de Uso 14: Adicionar Promoções.
+
+#### Atores:
+
+- Administrador
+
+#### Fluxo principal:
+
+- O administrador clica na aba de "Cardápio".
+
+- O administrador clica no item desejado.
+
+- Na página do item, o administrador clica em "Adicionar promoção".
+
+- Agora o Administrador escolhe qual a porcentagem da promoção.
+
+- Depois é redirecionado para a aba de "Tempo de Promoção".
+
+- O administrador escolhe o tempo da promoção.
+
+- O administrador aperta em "Confirmar".
+
+- O iten é atualizado com a novo valor e é adicionado na aba "Ofertas".
+
+### Caso de Uso 15: Gerenciar Gatos a mostra
+
+#### Atores:
+
+- Administrador
+
+#### Fluxo principal:
+
+- O administrador clica na aba "Gatos".
+
+- O administrador clica no botão "Editar Gatos".
+
+- O administrador clica no gatos já disponiveis para ativa-los.
+
+- O administrador clica em salvar.
