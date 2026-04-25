@@ -300,8 +300,34 @@
 
 - O administrador clica na aba "Gatos".
 
-- O administrador clica no botão "Editar Gatos".
+- O administrador clica em "Opções".
 
-- O administrador clica no gatos já disponiveis para ativa-los.
+- O administrador clica em "Adicionar gatos".
 
-- O administrador clica em salvar.
+- O administrador coloca as caracteristicas do gato(Nome, Raça, Idade, Castração, Traço de Personalidade, Se ta pra adoção ou não).
+
+- O administrador clica em "Salvar".
+
+- O gato é adicionado a aba "Gatos".
+
+### Caso de Uso 16: Excluir Gato
+
+#### Atores:
+
+- Administrador
+
+#### Fluxo principal:
+
+- O administra clica na aba "Gatos".
+
+- O administrador clica em "Opções".
+
+- O administrador clica no gato desejado.
+
+- O administrador clica em "Excluir gato".
+
+- O sistema envia Opções do que pode ser o motivo da exclusão.
+
+- O administrador escolhe uma opção e clica em "Confirmar Exclusão".
+
+- O gato é removido.
